@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37D640BC1BF02B1400D3EA23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D640BB1BF02B1400D3EA23 /* main.m */; };
-		37D640C41BF02E0300D3EA23 /* ZQLBusinessCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D640C31BF02E0300D3EA23 /* ZQLBusinessCard.m */; };
-		37D640C71BF02E2800D3EA23 /* ZQLAdressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D640C61BF02E2800D3EA23 /* ZQLAdressBook.m */; };
+		37CB8BD31BEB85A6001D0220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB8BD21BEB85A6001D0220 /* main.m */; };
+		37CB8BDB1BEB85F3001D0220 /* AddBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB8BDA1BEB85F3001D0220 /* AddBook.m */; };
+		37CB8BE11BEB8BA8001D0220 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB8BE01BEB8BA8001D0220 /* Friend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		37D640B61BF02B1400D3EA23 /* CopyFiles */ = {
+		37CB8BCD1BEB85A6001D0220 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		37D640B81BF02B1400D3EA23 /* 通讯录 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "通讯录"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37D640BB1BF02B1400D3EA23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37D640C21BF02E0300D3EA23 /* ZQLBusinessCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLBusinessCard.h; sourceTree = "<group>"; };
-		37D640C31BF02E0300D3EA23 /* ZQLBusinessCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLBusinessCard.m; sourceTree = "<group>"; };
-		37D640C51BF02E2800D3EA23 /* ZQLAdressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLAdressBook.h; sourceTree = "<group>"; };
-		37D640C61BF02E2800D3EA23 /* ZQLAdressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLAdressBook.m; sourceTree = "<group>"; };
+		37CB8BCF1BEB85A6001D0220 /* 我的通讯录 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "我的通讯录"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CB8BD21BEB85A6001D0220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37CB8BD91BEB85F3001D0220 /* AddBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBook.h; sourceTree = "<group>"; };
+		37CB8BDA1BEB85F3001D0220 /* AddBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBook.m; sourceTree = "<group>"; };
+		37CB8BDF1BEB8BA8001D0220 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		37CB8BE01BEB8BA8001D0220 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37D640B51BF02B1400D3EA23 /* Frameworks */ = {
+		37CB8BCC1BEB85A6001D0220 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,100 +44,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37D640AF1BF02B1400D3EA23 = {
+		37CB8BC61BEB85A6001D0220 = {
 			isa = PBXGroup;
 			children = (
-				37D640C21BF02E0300D3EA23 /* ZQLBusinessCard.h */,
-				37D640C31BF02E0300D3EA23 /* ZQLBusinessCard.m */,
-				37D640C51BF02E2800D3EA23 /* ZQLAdressBook.h */,
-				37D640C61BF02E2800D3EA23 /* ZQLAdressBook.m */,
-				37D640BA1BF02B1400D3EA23 /* 通讯录 */,
-				37D640B91BF02B1400D3EA23 /* Products */,
+				37CB8BDF1BEB8BA8001D0220 /* Friend.h */,
+				37CB8BE01BEB8BA8001D0220 /* Friend.m */,
+				37CB8BD91BEB85F3001D0220 /* AddBook.h */,
+				37CB8BDA1BEB85F3001D0220 /* AddBook.m */,
+				37CB8BD11BEB85A6001D0220 /* 我的通讯录 */,
+				37CB8BD01BEB85A6001D0220 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		37D640B91BF02B1400D3EA23 /* Products */ = {
+		37CB8BD01BEB85A6001D0220 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37D640B81BF02B1400D3EA23 /* 通讯录 */,
+				37CB8BCF1BEB85A6001D0220 /* 我的通讯录 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37D640BA1BF02B1400D3EA23 /* 通讯录 */ = {
+		37CB8BD11BEB85A6001D0220 /* 我的通讯录 */ = {
 			isa = PBXGroup;
 			children = (
-				37D640BB1BF02B1400D3EA23 /* main.m */,
+				37CB8BD21BEB85A6001D0220 /* main.m */,
 			);
-			path = "通讯录";
+			path = "我的通讯录";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37D640B71BF02B1400D3EA23 /* 通讯录 */ = {
+		37CB8BCE1BEB85A6001D0220 /* 我的通讯录 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37D640BF1BF02B1400D3EA23 /* Build configuration list for PBXNativeTarget "通讯录" */;
+			buildConfigurationList = 37CB8BD61BEB85A6001D0220 /* Build configuration list for PBXNativeTarget "我的通讯录" */;
 			buildPhases = (
-				37D640B41BF02B1400D3EA23 /* Sources */,
-				37D640B51BF02B1400D3EA23 /* Frameworks */,
-				37D640B61BF02B1400D3EA23 /* CopyFiles */,
+				37CB8BCB1BEB85A6001D0220 /* Sources */,
+				37CB8BCC1BEB85A6001D0220 /* Frameworks */,
+				37CB8BCD1BEB85A6001D0220 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "通讯录";
-			productName = "通讯录";
-			productReference = 37D640B81BF02B1400D3EA23 /* 通讯录 */;
+			name = "我的通讯录";
+			productName = "我的通讯录";
+			productReference = 37CB8BCF1BEB85A6001D0220 /* 我的通讯录 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		37D640B01BF02B1400D3EA23 /* Project object */ = {
+		37CB8BC71BEB85A6001D0220 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = JackQin;
 				TargetAttributes = {
-					37D640B71BF02B1400D3EA23 = {
+					37CB8BCE1BEB85A6001D0220 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 37D640B31BF02B1400D3EA23 /* Build configuration list for PBXProject "通讯录" */;
+			buildConfigurationList = 37CB8BCA1BEB85A6001D0220 /* Build configuration list for PBXProject "我的通讯录" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 37D640AF1BF02B1400D3EA23;
-			productRefGroup = 37D640B91BF02B1400D3EA23 /* Products */;
+			mainGroup = 37CB8BC61BEB85A6001D0220;
+			productRefGroup = 37CB8BD01BEB85A6001D0220 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37D640B71BF02B1400D3EA23 /* 通讯录 */,
+				37CB8BCE1BEB85A6001D0220 /* 我的通讯录 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37D640B41BF02B1400D3EA23 /* Sources */ = {
+		37CB8BCB1BEB85A6001D0220 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37D640C71BF02E2800D3EA23 /* ZQLAdressBook.m in Sources */,
-				37D640BC1BF02B1400D3EA23 /* main.m in Sources */,
-				37D640C41BF02E0300D3EA23 /* ZQLBusinessCard.m in Sources */,
+				37CB8BE11BEB8BA8001D0220 /* Friend.m in Sources */,
+				37CB8BDB1BEB85F3001D0220 /* AddBook.m in Sources */,
+				37CB8BD31BEB85A6001D0220 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		37D640BD1BF02B1400D3EA23 /* Debug */ = {
+		37CB8BD41BEB85A6001D0220 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +177,7 @@
 			};
 			name = Debug;
 		};
-		37D640BE1BF02B1400D3EA23 /* Release */ = {
+		37CB8BD51BEB85A6001D0220 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,14 +211,14 @@
 			};
 			name = Release;
 		};
-		37D640C01BF02B1400D3EA23 /* Debug */ = {
+		37CB8BD71BEB85A6001D0220 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		37D640C11BF02B1400D3EA23 /* Release */ = {
+		37CB8BD81BEB85A6001D0220 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -228,24 +228,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37D640B31BF02B1400D3EA23 /* Build configuration list for PBXProject "通讯录" */ = {
+		37CB8BCA1BEB85A6001D0220 /* Build configuration list for PBXProject "我的通讯录" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37D640BD1BF02B1400D3EA23 /* Debug */,
-				37D640BE1BF02B1400D3EA23 /* Release */,
+				37CB8BD41BEB85A6001D0220 /* Debug */,
+				37CB8BD51BEB85A6001D0220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37D640BF1BF02B1400D3EA23 /* Build configuration list for PBXNativeTarget "通讯录" */ = {
+		37CB8BD61BEB85A6001D0220 /* Build configuration list for PBXNativeTarget "我的通讯录" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37D640C01BF02B1400D3EA23 /* Debug */,
-				37D640C11BF02B1400D3EA23 /* Release */,
+				37CB8BD71BEB85A6001D0220 /* Debug */,
+				37CB8BD81BEB85A6001D0220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 37D640B01BF02B1400D3EA23 /* Project object */;
+	rootObject = 37CB8BC71BEB85A6001D0220 /* Project object */;
 }

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>通讯录.xcscheme</key>
+		<key>我的通讯录.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>37D640B71BF02B1400D3EA23</key>
+		<key>37CB8BCE1BEB85A6001D0220</key>
 		<dict>
 			<key>primary</key>
 			<true/>
