@@ -15,6 +15,7 @@ int main(int argc, const char * argv[]) {
         [ZQL addFriendName:@"zql" andGender:@"man" andAge:26 andCel:15313 andHome:@"北京市海淀区"];
         
         [ZQL showAllFriends];
+        NSLog(@"我是修改过的代码");
     }
     return 0;
 }
